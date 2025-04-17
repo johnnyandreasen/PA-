@@ -10,6 +10,201 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+
+@import "bootstrap";
+.mainnav{
+
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:steelblue;
+    opacity: 0.7;
+}
+.slideshowtext{
+color: white;
+text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+.bestmomenttext{
+background-color: darkblue;
+ height: 150px;
+  display: flex;
+   justify-content: center; 
+   align-items: center;
+   font-size: 50px; 
+   color: white; 
+   font-weight: bold; 
+    text-align: center;
+}
+.headerstyle{
+background-color: darkblue;
+color: white;
+}
+
+
+.whitetext {
+color: white;
+}
+
+.col-sm-red {
+background-color: tomato; 
+height: 200px;
+border: 4px solid black; 
+margin-bottom: 15px; 
+padding: 15px;
+text-align: center;
+color: white;
+}
+
+.col-sm-blue {
+background-color: steelblue; 
+height: 200px;
+border: 4px solid black; 
+margin-bottom: 15px; 
+padding: 15px;
+text-align: center;
+color: white;
+}
+
+.col-sm-blue-josh {
+background-color: steelblue; 
+height: 300px;
+border: 4px solid black; 
+margin-bottom: 15px; 
+padding: 15px;
+text-align: center;
+color: white;
+}
+.col-sm-red-josh {
+background-color: tomato; 
+height: 300px;
+border: 4px solid black; 
+margin-bottom: 15px; 
+padding: 15px;
+text-align: center;
+color: white;
+}
+
+.container {
+margin-top: 30px;
+}
+.bodycolor{
+background-color: lightgray;
+}
+
+#headertext{
+font-size: xxx-large;
+font-weight: bold;
+color: white;
+text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     height: 150px;
+     display: flex;
+      justify-content: center; 
+      align-items: center;
+
+}
+
+.textboxtitle{
+font-size: large;
+font-weight: bold;
+color: white;
+text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+      justify-content: center; 
+}
+
+.paragraphtext {
+color: white;
+margin-top: 10px;
+font-size: 14px; 
+text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     text-align: center;
+    
+
+}
+.colblue{
+padding: 10px;
+border: 2px solid black; 
+height: 50px;
+text-align: center;
+background-color: steelblue;
+}
+.colred{
+padding: 10px;
+border: 2px solid black; 
+height: 50px;
+text-align: center;
+background-color: tomato
+}
+.colwhite{
+padding: 10px;
+border: 2px solid black; 
+height: 50px;
+text-align: center;
+background-color: floralwhite
+}
+.bold{
+font-weight: bold;
+}
+.buttonred{
+background-color: tomato;
+}
+.buttonblue{
+background-color: steelblue;
+}
+
+
+.centered {
+display: flex;
+justify-content: center;
+}
+.button{
+background-color: steelblue;
+}
+
+
+.textcenter{
+text-align: center;
+}
+.image{
+background-repeat: no-repeat;
+ background-size: 100% 100%; 
+ min-height: 100vh
+}
+.joshimage{
+background-image: url('home.jpeg'); 
+background-repeat: 
+no-repeat; background-size:100% 100%; 
+ min-height: 100vh;
+}
+.backgroundimage{
+background-image: url('homeimage.jpg'); 
+background-repeat: no-repeat; 
+background-size: 100% 100%; 
+min-height: 100vh
+}
+
+.momentimage{
+background-image: url('champs.png'); 
+background-repeat: no-repeat;
+background-size: 100% 100%; 
+min-height: 100vh
+}
+
+.imagefixer{width: 100%; height: 100%;}

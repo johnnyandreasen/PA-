@@ -6,10 +6,21 @@ Rails.application.routes.draw do
   get "home/about"
   get "home/contactus"
   get "home/help"
-  resources :microposts
+  
+  resources :microposts do
+    member do
+      get :like
+    end
+  end
 
   resources :users
 
-  #get 'microposts/:id/like' => 'microposts#like', as: :likeAPost
+  Rails.application.routes.draw do
+    root to: 'profile#home' 
+    get '/about', to: 'profile#about' 
+    get '/portfolio', to: 'profile#portfolio'  
+  end
+  
+
   
 end
