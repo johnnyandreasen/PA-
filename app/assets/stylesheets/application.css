@@ -13,6 +13,15 @@
  */
 
 @import "bootstrap";
+@import 'vendor/font-awesome.min';
+
+
+.fa-house {
+    color: red;
+    font-size: 30px;
+  }
+  
+
 .mainnav{
 
     width: 100%;

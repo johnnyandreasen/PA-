@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  
   root "home#index"
 
   get "home/index"
@@ -15,12 +14,8 @@ Rails.application.routes.draw do
 
   resources :users
 
-  Rails.application.routes.draw do
-    root to: 'profile#home' 
-    get '/about', to: 'profile#about' 
-    get '/portfolio', to: 'profile#portfolio'  
-  end
-  
-
-  
+  # Adding profile routes properly
+  get '/profile/home', to: 'profile#home'
+  get '/about', to: 'profile#about'
+  get '/portfolio', to: 'profile#portfolio'
 end
